@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 2px solid;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+}
+.flex-child{
+    border: 2px solid;
+    padding: 20px;
+}
+.child1{
+    background-color: aqua;
+    flex-basis: 400px;
+    order: 4;
+}
+.child2{
+    background-color: aquamarine;
+    flex-basis: 500px;
+    order: 2;
+}
+.child3{
+    background-color: cadetblue;
+    flex-basis: 250px;
+    order: -2;
+}
+.child4{
+    background-color: cornflowerblue;
+    flex-basis: 300px;
+    order: 0;
+}
+.child5{
+    background-color: darkgoldenrod;
+    flex-basis: 300px;
+    order: -1;
+}
